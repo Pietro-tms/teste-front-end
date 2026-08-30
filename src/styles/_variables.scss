@@ -1,0 +1,57 @@
+// ==========================================
+// Neutros / Escala de Cinza
+// ==========================================
+
+$color-white: #FFFFFF;
+
+$color-gray-100: #F6F5F2;
+$color-gray-200: #F4F4F4;
+$color-gray-400: #9F9F9F;
+$color-gray-600: #676767;
+$color-gray-700: #3F3F40;
+$color-gray-800: #3B3B3B;
+$color-gray-900: #222222B5;
+$color-gray-950: #161615;
+
+
+// ==========================================
+// Cores Principais
+// ==========================================
+
+$color-blue-primary: #3442B5;
+$color-blue-vivid: #3019B2;
+$color-purple-dark: #271C47;
+$color-yellow-main: #F7CA11;
+
+
+// ==========================================
+// Cores de Marca & Destaque
+// ==========================================
+
+$color-primary: $color-blue-primary;
+$color-primary-hover: $color-blue-vivid;
+$color-secondary: $color-yellow-main;
+
+
+// ==========================================
+// Superfícies & Backgrounds
+// ==========================================
+
+$bg-body: $color-white;
+$bg-card: $color-white;
+$bg-section-light: $color-gray-100;
+$bg-input: $color-gray-200;
+$bg-footer: $color-purple-dark;
+
+
+// ==========================================
+// Tipografia / Textos
+// ==========================================
+
+$text-primary: $color-gray-950;
+$text-secondary: $color-gray-800;
+$text-muted: $color-gray-600;
+$text-subtle: $color-gray-400;
+$text-dark-variant: $color-gray-700;
+$text-overlay: $color-gray-900;
+$text-on-primary: $color-white;
