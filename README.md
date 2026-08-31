@@ -3,6 +3,7 @@
 # Clone o repositório e entre na pasta do projeto:
 
 git clone <URL_DO_REPOSITORIO>
+
 cd <NOME_DO_PROJETO>
 
 # Depois, instale as dependências:
