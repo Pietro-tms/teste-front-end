@@ -1,0 +1,30 @@
+@import "../styles/variables";
+
+.input {
+    width: 234px;
+    min-height: 42px;
+   
+
+    padding: 0 22px;
+
+    border: 1px solid $color-gray-300;
+    border-radius: 7px;
+
+    background: $color-white;
+
+    color: $text-primary;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+
+    outline: none;
+
+    &::placeholder {
+      color: $text-muted;
+    }
+
+    &:focus {
+      border-color: $color-primary;
+    }
+  }

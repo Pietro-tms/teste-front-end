@@ -1,7 +1,68 @@
 @import "../styles/variables";
 
 .navBar {
+  max-width: 100%;
 
-    width: 100%;
-    
+  &_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 44px;
+    gap: 44px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navBar {
+    &_container {
+      gap: 24px;
+      margin-top: 32px;
+      padding: 0 20px;
+      overflow-x: auto;
+      justify-content: flex-start;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .navBar {
+    &_container {
+      gap: 24px;
+      margin-top: 32px;
+      padding: 0 20px;
+      overflow-x: auto;
+      justify-content: flex-start;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .navBar {
+    &_container {
+      gap: 18px;
+      margin-top: 24px;
+      padding: 0 16px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .navBar {
+    &_container {
+      gap: 16px;
+      margin-top: 20px;
+      padding: 0 12px;
+    }
+  }
 }

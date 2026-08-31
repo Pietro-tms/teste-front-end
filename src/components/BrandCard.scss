@@ -1,0 +1,104 @@
+@import "../styles/variables";
+
+.brandCard {
+  width: 212px;
+  height: 212px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: $color-white;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.08),
+    0 2px 8px rgba(0, 0, 0, 0.04);
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+
+  &__ec {
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: -2px;
+    border-radius: 50%;
+    background: $color-secondary;
+    color: $color-white;
+
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: -2px;
+  }
+
+  &__name {
+    color: $color-purple-dark;
+  }
+}
+
+@media (max-width: 1200px) {
+  .brandCard {
+    width: 195px;
+    height: 195px;
+  }
+}
+
+@media (max-width: 900px) {
+  .brandCard {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 650px) {
+  .brandCard {
+    width: 155px;
+    height: 155px;
+
+    &__logo {
+      font-size: 19px;
+    }
+
+    &__ec {
+      width: 29px;
+      height: 29px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .brandCard {
+    width: 135px;
+    height: 135px;
+
+    &__logo {
+      font-size: 17px;
+    }
+
+    &__ec {
+      width: 26px;
+      height: 26px;
+      font-size: 16px;
+    }
+  }
+}

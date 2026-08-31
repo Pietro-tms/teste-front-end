@@ -6,6 +6,8 @@ $color-white: #FFFFFF;
 
 $color-gray-100: #F6F5F2;
 $color-gray-200: #F4F4F4;
+$color-gray-250: #DEDEDE;
+$color-gray-300: #BDBDBD;
 $color-gray-400: #9F9F9F;
 $color-gray-600: #676767;
 $color-gray-700: #3F3F40;
@@ -31,6 +33,8 @@ $color-yellow-main: #F7CA11;
 $color-primary: $color-blue-primary;
 $color-primary-hover: $color-blue-vivid;
 $color-secondary: $color-yellow-main;
+$color-border: $color-gray-300;
+$color-line: $color-gray-250;
 
 
 // ==========================================
@@ -38,7 +42,8 @@ $color-secondary: $color-yellow-main;
 // ==========================================
 
 $bg-body: $color-white;
-$bg-card: $color-white;
+$bg-card: $color-gray-200;
+$bg-card-hover: $color-white;
 $bg-section-light: $color-gray-100;
 $bg-input: $color-gray-200;
 $bg-footer: $color-purple-dark;
@@ -55,3 +60,4 @@ $text-subtle: $color-gray-400;
 $text-dark-variant: $color-gray-700;
 $text-overlay: $color-gray-900;
 $text-on-primary: $color-white;
+$text-light: $color-gray-400

@@ -1,0 +1,53 @@
+@import "../styles/variables";
+
+.categorie__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+    text-align: center;
+
+    &__icon__container {
+        width: 128px;
+        height: 128px;
+        background-color: $bg-card;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+
+        img {
+            max-width: 60px;
+            max-height: 60px;
+            object-fit: contain;
+            color: #3014b8;
+        }
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 500;
+        color: $text-muted;
+        transition: color 0.3s ease;
+    }
+
+   
+    &.active,
+    &:hover {
+        .categorie_card_icon_container {
+            background-color: #ffffff;
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        img {
+            filter: invert(16%) sepia(89%) saturate(6054%) hue-rotate(253deg) brightness(85%) contrast(100%);
+          }
+
+        span {
+            color: #3014b8; 
+            font-weight: 600;
+        }
+    }
+}

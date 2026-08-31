@@ -14,7 +14,8 @@ import crownSimple from "../assets/icons/CrownSimple.svg";
 function Header() {
   return (
     <header className="header">
-      <section className="header__benefits">
+     <div className="header__container">
+     <section className="header__benefits">
         <div className="header__container header__benefits-container">
           <div className="benefit">
             <img src={shieldCheck} alt="" />
@@ -99,6 +100,7 @@ function Header() {
           </a>
         </div>
       </nav>
+     </div>
     </header>
   );
 }
